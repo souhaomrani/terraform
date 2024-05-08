@@ -19,8 +19,4 @@ resource "proxmox_vm_qemu" "terraform-test" {
   target_node = "pve"                                           # Noeud Proxmox où déployer la machine virtuelle
   iso         = "local:iso/ubuntu-22.04.3-desktop-amd64.iso"    # Nom du fichier ISO pour l'installation
 
-  # Configuration optionnelle pour l'agent QEMU Guest
-  agent {
-    enabled = true
-  }
 }
