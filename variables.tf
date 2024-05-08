@@ -15,5 +15,5 @@ variable "pm_api_token_secret" {
 
 variable "template" {
   type    = string
-  default = "ubuntu.robert.local"  # Nom du modèle pour la création de la machine virtuelle Proxmox
+  default = "exemple"  # Nom du modèle pour la création de la machine virtuelle Proxmox
 }
